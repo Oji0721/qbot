@@ -62,7 +62,7 @@ export const config: BotConfig = {
     },
     botStatus: {
         enabled: true,
-        status: 'idle'
+        status: 'online'
     },
 }
 
