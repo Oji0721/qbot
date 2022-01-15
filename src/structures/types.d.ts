@@ -201,7 +201,20 @@ export interface BotConfig {
         value?: string;
         url?: string;
     }
-}
+
+    /**
+     * Configuration for the bot status
+     */
+    botStatus: {
+        /**
+         * Should there be an bot status for the bot?
+         */
+        enabled: boolean;
+        /**
+         * What is the type of the bot status?
+         */
+        status?: 'online' | 'dnd' | 'idle' | 'invisible';
+    }
 
 export declare type CommandPermission = {
     /**
@@ -217,6 +230,7 @@ export declare type CommandPermission = {
      */
     value?: boolean;
 }
+
 
 export declare type CommandArgument = {
     /**
