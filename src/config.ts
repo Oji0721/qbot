@@ -60,4 +60,9 @@ export const config: BotConfig = {
         type: 'WATCHING',
         value: 'for commands.',
     },
+    botStatus: {
+        enabled: true,
+        status: 'idle'
+    },
 }
+
