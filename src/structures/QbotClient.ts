@@ -29,6 +29,9 @@ class QbotClient extends Client {
             console.log(startedText);
             console.log(getListeningText(process.env.PORT || 3001));
             this.loadCommands();
+            if(config.botStatus.enabled) {
+            this.user.setStatus(config.botStatus.status);
+            }
             getLogChannels();
 
             if(config.activityStatus.enabled) {
