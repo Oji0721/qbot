@@ -1,4 +1,4 @@
-![Marketing Banner](https://gyazo.com/561218ced74b465d64343434988dd3c4.png)
+![Marketing Banner](https://i.gyazo.com/5f7d15ac56be78b2c294e0fa1f9d4b10.png)
 <p align="center">
   <a href="https://github.com/LengoLabs/qbot/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/LengoLabs/qbot?color=E76F51"></a>
   <a href="https://github.com/LengoLabs/qbot/commits/master"><img alt="Checks" src="https://img.shields.io/github/checks-status/LengoLabs/qbot/master?color=F4A261"></a>
